@@ -1,3 +1,7 @@
+# IDE
 .idea
 
+# project
 Typora-img-upload
+test*.sh
+vendor

@@ -5,7 +5,7 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 package main
 
 import (
-	"github.com/hu-jinwen/Typora-img-plugin/cmd"
+	"github.com/hu-jinwen/Typora-img-upload/cmd"
 	"math/rand"
 	"time"
 )
