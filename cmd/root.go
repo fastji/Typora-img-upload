@@ -4,7 +4,6 @@ package cmd
 
 import (
 	"fmt"
-	_ "github.com/hu-jinwen/Typora-img-upload/cmd/sub"
 	"github.com/spf13/cobra"
 	"os"
 )

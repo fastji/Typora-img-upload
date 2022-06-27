@@ -6,6 +6,7 @@ package main
 
 import (
 	"github.com/hu-jinwen/Typora-img-upload/cmd"
+	_ "github.com/hu-jinwen/Typora-img-upload/cmd/sub"
 	"math/rand"
 	"time"
 )
