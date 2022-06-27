@@ -1,10 +1,11 @@
-package cmd
+package sub
 
 import (
 	"crypto/md5"
 	"errors"
 	"fmt"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
+	"github.com/hu-jinwen/Typora-img-upload/cmd"
 	"github.com/spf13/cobra"
 	"time"
 )
@@ -24,7 +25,7 @@ func init() {
 	ossCmd.Flags().StringVarP(&akSecret, "access_secret", "s", "", "oss AccessKey Secret（非空）")
 	ossCmd.Flags().StringVarP(&path, "path", "p", "pic-bed", "oss 路径前缀，可以为空")
 
-	rootCmd.AddCommand(ossCmd)
+	cmd.RootCmd.AddCommand(ossCmd)
 }
 
 var ossCmd = &cobra.Command{
